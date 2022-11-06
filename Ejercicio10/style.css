@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: x-small;
+    font-family: Ubuntu, sans-serif;
+}
+
+.contenedor {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #00192c;
+    gap: 10px;
+    height: 100vh;
+    min-width: 100vw;
+    font-size: 2rem;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00b0f2;
+    color: white;
+    text-transform: uppercase;
+    flex-grow: 1;
+    border-radius: 10px;
+    margin: 15px 15px 15px 10px;
+    font-weight: bold;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.lateral {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 0.5rem;
+    /* width: 4rem; */
+    flex-grow: 0.2;
+    margin-left: 10px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #0072a4;
+    color: rgb(255, 255, 255);
+    height:10rem;
+    border-radius: 10px;
+}
+
+@media (max-width:640px ) {
+    .contenedor {
+        flex-direction: column-reverse;
+        background-color: black;
+    }
+    .principal {
+        background-color: #121621;
+        margin: 10px 10px 0 10px;
+    }
+    .lateral {
+        flex-grow: 0;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 10px 10px 0 10px;
+    }
+    .item {
+        font-size: x-large;
+        height: 3rem;
+        width: 6em;
+    }
+
+ }
