@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+html {
+    font-family: Ubuntu, sans-serif;
+    font-size: 2em;
+    color: white;
+}
+body {
+    background-color: #040c19!important;
+}
+.container {
+    background-color: rgb(91, 89, 87);
+}
+
+.row {
+    margin: 0.5rem;
+    color: white;
+    gap: 1rem;
+    text-align: center;
+}
+
+.col {
+    background-color: #102442;
+}
+
+.col-sm {
+    background-color: #0d517c;
+}
+
+.col-md {
+    background-color: #0889be;
+}
+
+.col-lg {
+    background-color: #07d2ff;
+}
+
+.col-xl {
+    background-color: #0ffff8;
+}
+
+.col-xxl {
+    background-color: #4fff88;
+}
