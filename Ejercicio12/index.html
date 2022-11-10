@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Elementos de Interés en Bootstrap</title>
+        <!-- CSS only -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <!-- primera sección -->
+        <div class="container pb-5">
+            <div class="bg-light p-5 rounded-3">
+                <div class="container-fluid py-5">
+                    <h1 class="display-5 fw-bold">Homework Jumbotron Modal</h1>
+                    <p class="col-md-8 fs-4">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Eaque pariatur eligendi maxime odio cumque animi
+                        deserunt rerum molestias sit architecto reprehenderit
+                        esse quidem atque, aliquam delectus quod dolores
+                        voluptates? Ipsum.
+                    </p>
+                    <button
+                        id="boton"
+                        type="button"
+                        class="btn btn-primary btn-lg"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modal-jumbo"
+                    >
+                        Abrir Modal
+                    </button>
+
+                    <!-- Modal -->
+                    <div
+                        class="modal fade"
+                        id="modal-jumbo"
+                        data-bs-backdrop="static"
+                        data-bs-keyboard="false"
+                        tabindex="-1"
+                        aria-labelledby="staticBackdropLabel"
+                        aria-hidden="true"
+                    >
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1
+                                        class="modal-title fs-5"
+                                        id="staticBackdropLabel"
+                                    >
+                                        Modal Lorem Ipsun
+                                    </h1>
+                                    <button
+                                        type="button"
+                                        class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-label="Close"
+                                    ></button>
+                                </div>
+                                <div class="modal-body bg-secondary">
+                                    <p
+                                        class="lead fst-italic"
+                                        style="color: bisque"
+                                    >
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Ducimus, quas alias?
+                                        Ullam facilis dolorem autem, repellat
+                                        ipsam adipisci iste totam numquam
+                                        aliquid eligendi sapiente, quos illum
+                                        vero itaque. Aliquam, harum.
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button
+                                        type="button"
+                                        class="btn btn-secondary"
+                                        data-bs-dismiss="modal"
+                                    >
+                                        Cerrar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- segunda sección  -->
+        <div class="container pb-5">
+            <div class="bg-light p-5 rounded-3">
+                <div class="container-fluid py-1">
+                    <form action="">
+                        <h1 class="display-5 fw-bold">
+                            Formulario de Contácto
+                        </h1>
+                        <div class="form-floating mb-3">
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="floatingInput"
+                                placeholder="Nombre"
+                            />
+                            <label for="floatingInput">Tu Nombre:</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input
+                                type="number"
+                                class="form-control"
+                                id="floatingInput"
+                                placeholder="Numero"
+                            />
+                            <label for="floatingInput"
+                                >Tu Número Telefónico:</label
+                            >
+                        </div>
+
+                        <div class="form-floating">
+                            <textarea
+                                class="form-control"
+                                placeholder="Leave a comment here"
+                                id="floatingTextarea"
+                            ></textarea>
+                            <label for="floatingTextarea"
+                                >Déjame tu mensaje:...</label
+                            >
+                            <div class="row mt-5 px-3">
+                                <button
+                                    type="submit"
+                                    class="btn btn-secondary mt-3 btn-lg"
+                                >
+                                    Enviar
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- tercera sección -->
+        <div class="container pb-5">
+            <div class="bg-light p-5 rounded-3">
+                <div class="container-fluid py-1 d-flex justify-content-center">
+                    <div class="card" style="width: 30rem">
+                        <img
+                            src="https://ceroideas.es/wp-content/uploads/2022/04/que-hace-un-programador-de-apps.jpg"
+                            class="card-img-top"
+                            alt="imagen"
+                        />
+                        <div class="card-header">
+                            <h3 class="text-center">Perfil Profesional</h3>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Jonathan Rodríguez</h5>
+                            <p class="card-text">
+                                Egresado en Administración de Empresas con
+                                experiencia en las áreas de Planificación
+                                Presupuestaria, Gasto Público, Gestión de
+                                Talento Humano, Plan de Gestión, Evaluación
+                                Presupuestaria y Proyectos Operativos Anuales.
+                            </p>
+                            <p class="card-text">
+                                Experiencia en la Dirección del Talento Humano,
+                                gestión de Capacitación y Bienestar Social
+                                Institucional.
+                            </p>
+                            <p class="card-text">
+                                Profesional en el área de Producción y Edición
+                                de Recursos Audiovisuales, con amplia
+                                experiencia en producción, edición y
+                                postproducción de material audiovisual; manejo
+                                en compañías productoras de recursos
+                                tecnológicos y humanos para la concepción de
+                                proyectos audiovisuales.
+                            </p>
+                            <p class="card-text">
+                                Estudiante en curso de Desarrollo Web Full Stack
+                                de la mano de OpenBootcamp e interesado en
+                                trabajar en el área de tecnología. Actualmente
+                                culminé los cursos de:
+                            </p>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    Conceptos de la Programación
+                                </li>
+                                <li class="list-group-item">
+                                    Introducción a la Programación
+                                </li>
+                                <li class="list-group-item">Java Básico</li>
+                                <li class="list-group-item">
+                                    JavaScript Básico
+                                </li>
+                                <li class="list-group-item">
+                                    HTML y CSS (en curso)
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <p class="lead">rodriguezjmm@hotmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"
+    ></script>
+    <script>
+        const myModal = document.getElementById("modal-jumbo");
+        const myInput = document.getElementById("boton");
+
+        myModal.addEventListener("shown.bs.modal", () => {
+            myInput.focus();
+        });
+    </script>
+</html>
