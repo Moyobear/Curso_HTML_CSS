@@ -1,0 +1,55 @@
+.btn, .btn-2 {
+  border: none;
+  padding: 0.25rem 0.5rem;
+  color: #2b2b2b;
+}
+.btn:hover, .btn-2:hover {
+  background-color: cyan;
+  color: yellow;
+  cursor: pointer;
+}
+
+.btn-2 {
+  margin: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  background-color: antiquewhite;
+  min-height: 100vh;
+  padding: 0.5rem;
+}
+.container h1 {
+  color: #3f3f3f;
+  text-transform: uppercase;
+  width: 50rem;
+  background-color: #cccccc;
+}
+.container p {
+  color: #3f3f3f;
+  text-transform: uppercase;
+  width: 50rem;
+  background-color: #666666;
+}
+.container .listado {
+  width: 10rem;
+  background-color: aquamarine;
+  padding: 0.5rem;
+}
+.container .listado ul {
+  margin: 0 0.5rem;
+}
+.container .listado ul li {
+  list-style: none;
+}
+.container .listado ul li:hover {
+  color: darkcyan;
+}
+
+/*# sourceMappingURL=style.css.map */

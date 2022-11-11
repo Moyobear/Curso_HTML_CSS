@@ -1,0 +1,8 @@
+@use "variables";
+
+@mixin formato-texto($bg-color) {
+    color: variables.$text-color;
+    text-transform: uppercase;
+    width: 50rem;
+    background-color: $bg-color;
+}
