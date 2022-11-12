@@ -1,0 +1,327 @@
+.btn-main, .btn-main-s {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  background-color: #0075ff;
+  color: white;
+  border: solid 1px #0075ff;
+}
+.btn-main:hover, .btn-main-s:hover {
+  background-color: white;
+  color: #0075ff;
+}
+.btn-main-s {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+.btn-sec, .btn-sec-s {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  color: black;
+  background-color: transparent;
+  border: none;
+}
+.btn-sec:hover, .btn-sec-s:hover {
+  color: #888;
+}
+.btn-sec-s {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+.main-menu {
+  margin-bottom: 0;
+}
+.main-menu li {
+  font-size: 1rem;
+  list-style: none;
+  display: inline;
+}
+.main-menu li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding: 0 0.5rem;
+}
+.main-menu li a:hover {
+  text-decoration: underline;
+}
+
+.icon-sm i {
+  font-size: 1.25rem;
+  padding: 0.4rem 0.65rem;
+  color: #0075ff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2509803922);
+}
+
+.profit {
+  display: flex;
+  flex-direction: column;
+}
+.profit i {
+  color: #0075ff;
+  font-size: 7.5rem;
+  text-align: center;
+}
+.profit .description .title {
+  font-size: 1.8rem;
+  text-align: center;
+}
+.profit .description .text {
+  color: #888;
+  font-weight: 600;
+  text-align: center;
+}
+.profit .cta {
+  color: #0075ff;
+  font-weight: 600;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon-desc i {
+  color: #0075ff;
+  font-size: 7.5rem;
+  padding: 0;
+  margin-bottom: 0;
+}
+.icon-desc .title {
+  margin-top: -1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 4rem;
+  border-bottom: solid 1px #ddd;
+}
+.nav ul {
+  padding-left: 0;
+}
+
+.logo a img {
+  max-width: 7rem;
+}
+
+.sec-home {
+  display: flex;
+  width: 100%;
+  max-width: 992px;
+  margin: auto;
+  padding: 3rem;
+  align-items: center;
+}
+.sec-home .home-cta {
+  flex: 1;
+}
+.sec-home .home-cta .cta-text {
+  color: #0075ff;
+}
+.sec-home .home-cta .home-title {
+  max-width: 20rem;
+  font-size: 3rem;
+}
+.sec-home .home-cta .home-description {
+  margin-bottom: 2rem;
+  max-width: 400px;
+}
+.sec-home .home-cta .lead-magnet .input-text .input-col {
+  max-width: 200px;
+}
+.sec-home .home-img {
+  text-align: center;
+}
+
+.sec-features, .sec-onboarding .intro, .sec-profits .intro {
+  width: 100%;
+  max-width: 992px;
+  margin: auto;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec-features .intro, .sec-onboarding .intro .intro, .sec-profits .intro .intro {
+  text-align: center;
+}
+.sec-features .intro h2, .sec-onboarding .intro .intro h2, .sec-profits .intro .intro h2 {
+  font-size: 1.8rem;
+}
+.sec-features .intro p, .sec-onboarding .intro .intro p, .sec-profits .intro .intro p {
+  font-size: 0.8rem;
+  color: #888;
+}
+.sec-features .features, .sec-onboarding .intro .features, .sec-profits .intro .features {
+  display: flex;
+  gap: 1rem;
+}
+.sec-features .features .text, .sec-onboarding .intro .features .text, .sec-profits .intro .features .text {
+  padding: 1rem 0;
+  flex: 1;
+  align-items: center;
+}
+.sec-features .features .text .feature, .sec-onboarding .intro .features .text .feature, .sec-profits .intro .features .text .feature {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.sec-features .features .text .feature .description, .sec-onboarding .intro .features .text .feature .description, .sec-profits .intro .features .text .feature .description {
+  margin-left: 1rem;
+  max-width: 20rem;
+}
+.sec-features .features .text .feature .description .description-title, .sec-onboarding .intro .features .text .feature .description .description-title, .sec-profits .intro .features .text .feature .description .description-title {
+  font-size: 1.25rem;
+}
+.sec-features .features .text .feature .description .description-text, .sec-onboarding .intro .features .text .feature .description .description-text, .sec-profits .intro .features .text .feature .description .description-text {
+  font-size: 1rem;
+}
+.sec-features .features .img, .sec-onboarding .intro .features .img, .sec-profits .intro .features .img {
+  text-align: center;
+}
+
+.sec-profits {
+  border-top: solid 0.5px #eee;
+  width: 100%;
+}
+.sec-profits .intro h2 {
+  font-size: 2rem;
+}
+.sec-profits .profit-cards {
+  width: 100%;
+}
+.sec-profits .profit-cards .profit {
+  margin: 0 2rem 2rem 2rem;
+}
+
+.sec-kpis {
+  width: 100%;
+  background-color: #0075ff;
+  color: white;
+  padding: 4rem;
+  text-align: center;
+  margin: 0;
+}
+.sec-kpis .kpi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec-kpis .kpi .number {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.sec-kpis .kpi .description {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6666666667);
+}
+
+.sec-onboarding .intro {
+  padding: 3rem;
+}
+.sec-onboarding .steps {
+  padding: 0 7rem 5rem 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7rem;
+}
+.sec-onboarding .steps .step-separartor {
+  flex: 1;
+  margin: 0 2rem;
+  border-top: 2px solid rgb(169, 167, 167);
+}
+
+.sec-footer-cta {
+  background-color: #f4f8fe;
+  background-image: url(../assets/img/bg.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  padding: 5rem;
+}
+.sec-footer-cta .footer-cta {
+  width: 50%;
+}
+.sec-footer-cta .footer-cta .footer-title {
+  font-size: 2rem;
+}
+.sec-footer-cta .footer-cta .footer-description {
+  color: #888;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.sec-footer-cta .footer-img {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  html {
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+  .sec-home .home-cta {
+    padding-left: 4rem;
+  }
+  .sec-profits {
+    margin: 5rem 0;
+  }
+  .sec-profits .intro h2 {
+    text-align: center;
+  }
+  .sec-profits .profit-cards {
+    width: 100%;
+  }
+  .sec-profits .profit-cards .profit {
+    margin: 0;
+  }
+  .sec-profits .profit-cards .profit .description {
+    text-align: center;
+  }
+  .sec-profits .profit-cards .profit .description .title {
+    margin: 0;
+  }
+  .sec-profits .profit-cards .profit .description .text {
+    margin: 0;
+  }
+  .sec-kpis {
+    padding: 2rem;
+  }
+  .sec-kpis .kpi {
+    margin: 2.5rem 0;
+  }
+  .sec-onboarding .steps {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  .sec-onboarding .steps .icon-desc {
+    margin: 1rem 0;
+  }
+  .sec-footer-cta {
+    background-image: none;
+    padding: 2rem 5rem;
+  }
+  .sec-footer-cta .footer-cta {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
